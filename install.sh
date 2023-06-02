@@ -8,14 +8,14 @@
 # CHANGELOG:
 #   v0.1 : First try to not broke everything
 
-
-#!/bin/bash
+# Create the plugintest folder if it doesn't exist
+mkdir -p ~/.printer_data/config/plugintest
 
 # Clone the GitHub repository
 git clone https://github.com/Jothoreptile/Plugintest
 
 # Copy the files to the Klipper configuration directory
-cp -r Plugintest/* ~/.config/klipper/plugintest
+cp -r Plugintest/* ~/.printer_data/config/plugintest
 
 # Restart the Klipper service
 sudo systemctl restart klipper

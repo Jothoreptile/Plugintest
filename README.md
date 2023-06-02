@@ -4,6 +4,8 @@ Test klipper
 To install the plugin :
 wget -O - https://raw.githubusercontent.com/Jothoreptile/Plugintest/main/install.sh | bash
 
+Add this to your moonraker.conf
+
 [update_manager Plugintest]
 
 type: git_repo

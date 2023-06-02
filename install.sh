@@ -10,13 +10,10 @@
 #   v0.2 : Try to not brove V2
 
 # Create the plugintest folder if it doesn't exist
-mkdir -p "$~/printer_data/config/Plugintest"
+$ mkdir -p ~/printer_data/config/Plugintest
 
-# Clone the GitHub repository
-git clone https://github.com/Jothoreptile/Plugintest
-
-# Copy the files to the Klipper configuration directory
-cp -r Plugintest/* $~/printer_data/config/Plugintest
+#copy cfg files into printer data
+wget -P ~/printer_data/config/Plugintest https://raw.githubusercontent.com/Jothoreptile/Plugintest/main/install.sh
 
 function restart_klipper {
     echo "[POST-INSTALL] Restarting Klipper..."

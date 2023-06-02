@@ -3,7 +3,7 @@
 ###### AUTOMATED INSTALL AND UPDATE SCRIPT ######
 #################################################
 # Written by Jotho with his little hand
-# @version: 0.1
+# @version: 0.2
 
 # CHANGELOG:
 #   v0.1 : First try to not broke everything

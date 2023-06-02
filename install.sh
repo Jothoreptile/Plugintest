@@ -15,7 +15,7 @@ mkdir -p "$~/printer_data/config/Plugintest"
 git clone https://github.com/Jothoreptile/Plugintest
 
 # Copy the files to the Klipper configuration directory
-cp -r Plugintest/* ~/.printer_data/config/Plugintest
+cp -r Plugintest/* $~/printer_data/config/Plugintest
 
 function restart_klipper {
     echo "[POST-INSTALL] Restarting Klipper..."

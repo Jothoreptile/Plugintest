@@ -8,6 +8,7 @@
 # CHANGELOG:
 #   v0.1 : First try to not broke everything
 #   v0.2 : Try to not brove V2
+#   V0.3 : Add Plugin.cfg into the good folder
 
 # Create the plugintest folder if it doesn't exist
 $ mkdir -p ~/printer_data/config/Plugintest

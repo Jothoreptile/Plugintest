@@ -13,7 +13,7 @@
 $ mkdir -p ~/printer_data/config/Plugintest
 
 #copy cfg files into printer data
-wget -P ~/printer_data/config/Plugintest https://raw.githubusercontent.com/Jothoreptile/Plugintest/main/install.sh
+wget -P ~/printer_data/config/Plugintest https://raw.githubusercontent.com/Jothoreptile/Plugintest/main/Plugin.cfg
 
 function restart_klipper {
     echo "[POST-INSTALL] Restarting Klipper..."

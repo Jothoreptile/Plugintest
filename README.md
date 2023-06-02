@@ -8,7 +8,7 @@ Add this to your moonraker.conf
 ```
 [update_manager Plugintest]
 type: git_repo
-path: ~/plugintest
+path: ~/Plugintest
 channel: beta
 origin: https://github.com/Jothoreptile/Plugintest.git
 primary_branch: main

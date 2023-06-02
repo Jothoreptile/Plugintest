@@ -9,7 +9,7 @@
 #   v0.1 : First try to not broke everything
 
 # Create the plugintest folder if it doesn't exist
-mkdir -p ~/.printer_data/config/Plugintest
+mkdir -p "$~/printer_data/config/Plugintest"
 
 # Clone the GitHub repository
 git clone https://github.com/Jothoreptile/Plugintest

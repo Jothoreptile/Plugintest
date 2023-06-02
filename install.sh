@@ -17,7 +17,9 @@ git clone https://github.com/Jothoreptile/Plugintest
 # Copy the files to the Klipper configuration directory
 cp -r Plugintest/* ~/.printer_data/config/plugintest
 
-# Restart the Klipper service
-sudo systemctl restart klipper
+function restart_klipper {
+    echo "[POST-INSTALL] Restarting Klipper..."
+    sudo systemctl restart klipper
+}
 
 echo "Installation complete!"
